@@ -1,7 +1,7 @@
 {
 	"name": "devconnector",
 	"version": "1.0.0",
-	"description": "Foglio",
+	"description": "Iconyc",
 	"main": "server.js",
 	"scripts": {
 		"start": "node server",
