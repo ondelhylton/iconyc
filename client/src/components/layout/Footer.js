@@ -44,7 +44,7 @@ const Footer = () => {
         <div className="footerContainers">
         <h1>
         <Link to='/'>
-        <img src={require('./iconyc.png')} alt="fireSpot"/>
+        <img src={require('./timesup.png')} alt="fireSpot"/>
         </Link>
       </h1>
         </div>

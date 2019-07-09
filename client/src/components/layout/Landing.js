@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import LightboxPage from '../profiles/Lightbox';
 import Info from '../layout/Info';
 import Features from '../layout/Features';
+import Slideshow from '../layout/Slider/index';
 
 const Landing = ({ isAuthenticated }) => {
   if (isAuthenticated) {
@@ -12,9 +13,14 @@ const Landing = ({ isAuthenticated }) => {
   }
 
   return (
+    
     <Fragment>
+
     <section className='landing'>
-      <div className='dark-overlay'>
+      <div className="slider8">
+    <Slideshow></Slideshow>
+    </div>
+      {/* <div className='dark-overlay'>
         <div className='landing-inner'>
           <br></br>
           <br></br>
@@ -38,7 +44,7 @@ const Landing = ({ isAuthenticated }) => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
       <br></br>
       <br></br>
       <br></br>

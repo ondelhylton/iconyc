@@ -59,7 +59,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
     <nav className='navbar bg-white'>
       <h1>
         <Link to='/'>
-        <img src={require('./iconyc_logo.png')} alt="fireSpot"/>
+        <img src={require('./timeup.png')} alt="fireSpot"/>
         </Link>
       </h1>
       {!loading && (

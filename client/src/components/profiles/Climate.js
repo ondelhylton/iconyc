@@ -5,7 +5,7 @@ import Spinner from '../layout/Spinner';
 import ProfileItem from './ProfileItem';
 import { getProfiles } from '../../actions/profile';
 import LightboxPage from '../profiles/Lightbox';
-// import Slideshow from '../layout/Slider/index';
+import Slideshow from '../layout/Slider/index';
 
 const Climate = ({ getProfiles, profile: { profiles, loading } }) => {
   useEffect(() => {
@@ -18,7 +18,7 @@ const Climate = ({ getProfiles, profile: { profiles, loading } }) => {
         <Spinner />
       ) : (
         <Fragment>
-          {/* <Slideshow></Slideshow> */}
+          <Slideshow></Slideshow>
         <LightboxPage></LightboxPage>
  
       
