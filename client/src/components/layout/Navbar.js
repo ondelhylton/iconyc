@@ -42,7 +42,7 @@ const Navbar = ({ auth: { isAuthenticated, loading }, logout }) => {
         <Link to='/technology'>Events</Link>
       </li>
       <li>
-        <Link to='/technology'>Climate Center</Link>
+        <Link to='/climate'>Climate Center</Link>
       </li>
       <li>
         <Link to='/register'>Register</Link>

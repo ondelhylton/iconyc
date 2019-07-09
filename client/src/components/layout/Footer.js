@@ -9,32 +9,22 @@ const Footer = () => {
     <div className="footer">
     <div className="footerDivs">
 
-        <div className="footerContainers">
+        {/* <div className="footerContainers">
         <ul>
         <li>
-            <Link to='/technology'>Foglio Technology</Link>
+            <Link to='/technology'>Spots</Link>
             </li>
 
             <li>
-            <Link to='/profiles'>Foglio Network</Link>
+            <Link to='/profiles'>Climate Center</Link>
             </li>
             <li>
-            <Link to='/posts'>Foglio News</Link>
+            <Link to='/posts'>Blog</Link>
             </li>
-            <li class="copyright">©Copyright Foglio.com Team</li>
+            
             </ul>
         </div>
 
-
-        <div className="footerContainers">
-        <ul>
-          <li>J. Lobos Vega</li>
-            <li>Ondel Hylton</li>
-            <li>Raquel</li>
-            <li>Stella Kim</li>
-
-            </ul>
-        </div>
 
         <div className="footerContainers">
         <ul>
@@ -45,16 +35,16 @@ const Footer = () => {
           <li>
             <Link to='mailto:webmaster@example.com'>Contact Us</Link>
             </li>
-            <li>Privacy Policy</li>
-            <li>Terms & Conditions</li>
+            
+            <li class="copyright">©Copyright ICONYC Team</li>
 
             </ul>
-        </div>
+        </div> */}
 
         <div className="footerContainers">
         <h1>
         <Link to='/'>
-        <img src={require('./foglio.png')} alt="fireSpot"/>
+        <img src={require('./iconyc.png')} alt="fireSpot"/>
         </Link>
       </h1>
         </div>

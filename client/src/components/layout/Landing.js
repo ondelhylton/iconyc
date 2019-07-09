@@ -3,6 +3,8 @@ import { Link, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import LightboxPage from '../profiles/Lightbox';
+import Info from '../layout/Info';
+import Features from '../layout/Features';
 
 const Landing = ({ isAuthenticated }) => {
   if (isAuthenticated) {
@@ -41,8 +43,12 @@ const Landing = ({ isAuthenticated }) => {
       <br></br>
       <br></br>
     </section>
-    <LightboxPage></LightboxPage>
 
+
+
+    <Features></Features>
+    <Info></Info>
+    
 
 
 </Fragment>

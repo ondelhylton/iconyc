@@ -45,10 +45,10 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
 
     <div class="column2">
       <br></br>
-      <h1 className='large text-primary'>Register</h1>
-      <p className='lead'>
+      <h1 className='large text-primary3'>REGISTER</h1>
+      <h4 className='lead3'>
         <i className='fas fa-user' /> Create Your Account
-      </p>
+      </h4>
 
       
     <div className="row2">
@@ -89,13 +89,12 @@ const Register = ({ setAlert, register, isAuthenticated }) => {
             onChange={e => onChange(e)}
           />
         </div>
-        <div className ='signin'>
-        <input type='submit' className='btn btn-primary' value='  Register ' />
+        <div className='buttons'>
+        <input type='submit' className='btn btn-home' value='  Register ' />
       
-      <p className='my-1'>
-       <Link to='/login'> Already have an account? - Sign In</Link>
-        </p>
-      </div>
+      
+          </div>
+      
       </form>
       </div>
       </div>

@@ -9,6 +9,7 @@ import EditProfile from '../profile-forms/EditProfile';
 import AddExperience from '../profile-forms/AddExperience';
 import AddEducation from '../profile-forms/AddEducation';
 import Technology from '../profiles/Technology';
+import Climate from '../profiles/Climate';
 import LightboxPage from '../profiles/Lightbox';
 import Profiles from '../profiles/Profiles';
 import Profile from '../profile/Profile';
@@ -26,6 +27,7 @@ var Routes = () => {
         <Route exact path='/login' component={Login} />
         <Route exact path='/technology' component={Technology} />
         <Route exact path='/lightbox' component={LightboxPage} />
+        <Route exact path='/climate' component={Climate} />
         <Route exact path='/profiles' component={Profiles} />
         <Route exact path='/profile/:id' component={Profile} />
         <PrivateRoute exact path='/dashboard' component={Dashboard} />

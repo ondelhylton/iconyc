@@ -20,6 +20,8 @@
 		"jsonwebtoken": "^8.5.1",
 		"mdbreact": "^4.18.0",
 		"mongoose": "^5.5.1",
+		"rc-banner-anim": "^2.2.8",
+		"react-iframe": "^1.8.0",
 		"request": "^2.88.0"
 	},
 	"devDependencies": {
