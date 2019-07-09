@@ -5,7 +5,8 @@ import Spinner from '../layout/Spinner';
 import ProfileItem from './ProfileItem';
 import { getProfiles } from '../../actions/profile';
 import LightboxPage from '../profiles/Lightbox';
-import GoogleApiWrapper from '../layout/Map';
+import BlogPage from '../profiles/Blog';
+// import GoogleApiWrapper from '../layout/Map';
 
 const Technology = ({ getProfiles, profile: { profiles, loading } }) => {
   useEffect(() => {
@@ -18,7 +19,7 @@ const Technology = ({ getProfiles, profile: { profiles, loading } }) => {
         <Spinner />
       ) : (
         <Fragment>
-        <GoogleApiWrapper></GoogleApiWrapper>
+        {/* <GoogleApiWrapper></GoogleApiWrapper> */}
     </Fragment>
     
 
@@ -26,6 +27,10 @@ const Technology = ({ getProfiles, profile: { profiles, loading } }) => {
       <br></br>
      <Fragment>
      <LightboxPage></LightboxPage>
+     </Fragment>
+
+     <Fragment>
+     <BlogPage></BlogPage>
      </Fragment>
     </Fragment>
     
