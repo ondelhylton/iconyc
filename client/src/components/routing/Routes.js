@@ -17,6 +17,8 @@ import Posts from '../posts/Posts';
 import Post from '../post/Post';
 import NotFound from '../layout/NotFound';
 import PrivateRoute from '../routing/PrivateRoute';
+import React360App from '../layout/react360';
+
 
 var Routes = () => {
   return (
@@ -28,6 +30,7 @@ var Routes = () => {
         <Route exact path='/technology' component={Technology} />
         <Route exact path='/lightbox' component={LightboxPage} />
         <Route exact path='/climate' component={Climate} />
+        <Route exact path='/react' component={React360App} />
         <Route exact path='/profiles' component={Profiles} />
         <Route exact path='/profile/:id' component={Profile} />
         <PrivateRoute exact path='/dashboard' component={Dashboard} />

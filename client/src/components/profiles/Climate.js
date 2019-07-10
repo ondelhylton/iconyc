@@ -6,6 +6,9 @@ import ProfileItem from './ProfileItem';
 import { getProfiles } from '../../actions/profile';
 import LightboxPage from '../profiles/Lightbox';
 import Slideshow from '../layout/Slider/index';
+import React360App from '../layout/react360';
+import Info from '../layout/Info';
+
 
 const Climate = ({ getProfiles, profile: { profiles, loading } }) => {
   useEffect(() => {
@@ -20,6 +23,7 @@ const Climate = ({ getProfiles, profile: { profiles, loading } }) => {
         <Fragment>
           <Slideshow></Slideshow>
         <LightboxPage></LightboxPage>
+        <Info></Info>
  
       
 

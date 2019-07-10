@@ -3,9 +3,11 @@ import { Link, Redirect } from 'react-router-dom';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import LightboxPage from '../profiles/Lightbox';
-import Info from '../layout/Info';
+
 import Features from '../layout/Features';
 import Slideshow from '../layout/Slider/index';
+import React360App from '../layout/react360';
+
 
 const Landing = ({ isAuthenticated }) => {
   if (isAuthenticated) {
@@ -53,10 +55,9 @@ const Landing = ({ isAuthenticated }) => {
 
 
     <Features></Features>
-    <Info></Info>
+    <React360App></React360App>
+  
     
-
-
 </Fragment>
 
     

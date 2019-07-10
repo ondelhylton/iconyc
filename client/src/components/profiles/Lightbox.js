@@ -85,4 +85,7 @@ const { photoIndex, isOpen, images } = this.state;
   }
 }
 
+
+
+
 export default LightboxPage;
